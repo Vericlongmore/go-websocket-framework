@@ -1,0 +1,54 @@
+[etcd]
+Host = "127.0.0.1:2379"
+
+[pillx]
+GatewayOuterHost = "127.0.0.1"
+GatewayOuterPort = 9128
+GatewayInnerHost = "192.168.10.58"
+GatewayInnerPort = 10086
+WorkerInnerHost = "192.168.10.58"
+WorkerInnerPort = 18600
+GatewayName = "testgassteway"
+WorkerName 	= "testssworker"
+
+[redis0]
+Host = "127.0.0.1"
+Port = 6380
+User = "dev"
+Password = "pass123!"
+
+[[Mysql]]
+Host = "127.0.0.1"
+Port = 7788
+DBname = "test"
+User = "u_all"
+Password = "123"
+
+[[Mysql]]
+Host = "127.0.0.1"
+Port = 7788
+DBname = "test"
+User = "u_all"
+Password = "123"
+
+[[Mysql]]
+Host = "127.0.0.1"
+Port = 7788
+DBname = "test"
+User = "u_all"
+Password = "123"
+
+
+[[Mongo]]
+Host = "mongodb://127.0.0.1:27081"
+Port = 27081
+DBname = "soccer"
+User = ""
+Password = ""
+
+[Elasticsearch]
+Host = "http://127.0.0.1:9009"
+Port = 27081
+DBname = "soccer"
+User = ""
+Password = ""
